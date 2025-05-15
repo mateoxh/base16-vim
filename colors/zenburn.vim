@@ -145,7 +145,7 @@ endif
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "base16-zenburn"
+let g:colors_name = "zenburn"
 
 " Highlighting function
 " Optional variables are attributes and guisp

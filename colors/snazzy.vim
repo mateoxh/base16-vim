@@ -145,7 +145,7 @@ endif
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "base16-snazzy"
+let g:colors_name = "snazzy"
 
 " Highlighting function
 " Optional variables are attributes and guisp
