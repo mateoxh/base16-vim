@@ -4,16 +4,6 @@
 " by Chris Kempson (http://chriskempson.com)
 " Material Palenight scheme by Nate Peterson
 
-" This enables the coresponding base16-shell script to run so that
-" :colorscheme works in terminals supported by base16-shell scripts
-" User must set this variable in .vimrc
-"   let g:base16_shell_path=base16-builder/output/shell/
-if !has("gui_running")
-  if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-material-palenight.sh"
-  endif
-endif
-
 " GUI color definitions
 let s:gui00        = "292D3E"
 let g:base16_gui00 = "292D3E"

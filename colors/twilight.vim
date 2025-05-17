@@ -4,16 +4,6 @@
 " by Chris Kempson (http://chriskempson.com)
 " Twilight scheme by David Hart (https://github.com/hartbit)
 
-" This enables the coresponding base16-shell script to run so that
-" :colorscheme works in terminals supported by base16-shell scripts
-" User must set this variable in .vimrc
-"   let g:base16_shell_path=base16-builder/output/shell/
-if !has("gui_running")
-  if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-twilight.sh"
-  endif
-endif
-
 " GUI color definitions
 let s:gui00        = "1e1e1e"
 let g:base16_gui00 = "1e1e1e"

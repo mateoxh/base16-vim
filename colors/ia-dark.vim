@@ -4,16 +4,6 @@
 " by Chris Kempson (http://chriskempson.com)
 " iA Dark scheme by iA Inc. (modified by aramisgithub)
 
-" This enables the coresponding base16-shell script to run so that
-" :colorscheme works in terminals supported by base16-shell scripts
-" User must set this variable in .vimrc
-"   let g:base16_shell_path=base16-builder/output/shell/
-if !has("gui_running")
-  if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-ia-dark.sh"
-  endif
-endif
-
 " GUI color definitions
 let s:gui00        = "1a1a1a"
 let g:base16_gui00 = "1a1a1a"
